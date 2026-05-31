@@ -1,0 +1,60 @@
+ART 277 - Intro to HTML
+Final Group Project – I Semester 2026
+Starz University, College of Information Technology
+
+Group Number: Group 7
+Section: Section 3 (Thursday 5–7 PM)
+Assigned Brand: MelodyPoint Music School
+Submission Date: June 6, 2026
+
+================================================
+GROUP MEMBERS, STUDENT IDs, AND ROLES
+================================================
+
+No.  Name                  Student ID     Role
+------------------------------------------------------------
+1.   [Member 1 Name]       STZ-2026-001   Project Lead / HTML Structure
+2.   [Member 2 Name]       STZ-2026-002   Home Page (index.html) & CSS Styling
+3.   [Member 3 Name]       STZ-2026-003   About Page (about.html) & Content
+4.   [Member 4 Name]       STZ-2026-004   Services/Gallery Page (services.html)
+5.   [Member 5 Name]       STZ-2026-005   Contact Page (contact.html) & Form
+6.   [Member 6 Name]       STZ-2026-006   Logo/Brand Design & Image Assets
+
+================================================
+PROJECT FOLDER STRUCTURE
+================================================
+
+ART277_Group7_Section3/
+├── index.html          (Home Page)
+├── about.html          (About Page)
+├── services.html       (Programs & Gallery Page)
+├── contact.html        (Contact Page)
+├── style.css           (Main Stylesheet)
+├── group_members.txt   (This document)
+└── images/
+    ├── logo.svg        (MelodyPoint Logo)
+    ├── banner.svg      (Home Page Banner)
+    ├── instruments.svg (Instruments Image)
+    └── team.svg        (Team/About Image)
+
+================================================
+BRAND IDENTITY
+================================================
+
+Brand Name:    MelodyPoint Music School
+Brand Focus:   Music lesson and training center
+Colors:        Purple (#4B0082, #6A0DAD) and Gold (#FFD700)
+Logo Symbol:   Music note + Headphone symbol
+Tagline:       "Where Every Note Tells Your Story"
+
+================================================
+NOTES
+================================================
+
+- All pages link to each other through the navigation menu.
+- The website is fully offline-ready (no internet required).
+- All images are SVG files stored in the images/ folder.
+- CSS is included in style.css for improved visual presentation.
+- The contact form includes text input, email input, radio buttons,
+  checkboxes, a dropdown select, and a submit button.
+- External links open in a new tab using target="_blank".

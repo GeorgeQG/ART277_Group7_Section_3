@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MelodyPoint Music School - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="images/logo.svg" alt="MelodyPoint Music School Logo" class="logo">
+        <p style="color:#D8B4FE; font-style:italic; font-size:14px;">Where Every Note Tells Your Story</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Programs &amp; Gallery</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <h1>Contact Us</h1>
+        <p>
+            We would love to hear from you. Whether you have a question about enrollment, programs,
+            fees, or just want to say hello -- reach out to us using the form below or through our contact details.
+        </p>
+
+        <div class="contact-section">
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h2>Our Contact Details</h2>
+
+                <div class="info-item">
+                    <span class="info-icon">*</span>
+                    <span><strong>Address:</strong><br>MelodyPoint Music School<br>Sinkor, Monrovia, Liberia</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-icon">*</span>
+                    <span><strong>Phone:</strong><br>+231 770 000 111<br>+231 880 000 222</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-icon">*</span>
+                    <span><strong>Email:</strong><br>melodypointmusic@email.com</span>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-icon">*</span>
+                    <span>
+                        <strong>Office Hours:</strong><br>
+                        Monday - Friday: 8:00 AM - 6:00 PM<br>
+                        Saturday: 9:00 AM - 3:00 PM<br>
+                        Sunday: Closed
+                    </span>
+                </div>
+
+                <hr class="divider" style="margin:20px 0;">
+
+                <h3>Quick Links</h3>
+                <ul class="custom-list">
+                    <li><a href="index.html">Back to Home</a></li>
+                    <li><a href="services.html">View Programs and Fees</a></li>
+                    <li><a href="about.html">Meet Our Team</a></li>
+                    <li>
+                        <a href="https://maps.google.com/?q=Sinkor+Monrovia+Liberia" target="_blank">
+                            Find Us on Google Maps
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h2>Send Us a Message</h2>
+                <p>Fill in the form below and we will get back to you within 24 hours.</p>
+
+                <form action="#" method="post">
+
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" placeholder="e.g. +231 770 000 000">
+
+                    <label for="program">Program of Interest</label>
+                    <select id="program" name="program">
+                        <option value="">-- Select a Program --</option>
+                        <option value="piano">Piano Lessons</option>
+                        <option value="guitar">Guitar Lessons</option>
+                        <option value="vocals">Vocal Training</option>
+                        <option value="drums">Drumming and Percussion</option>
+                        <option value="theory">Music Theory</option>
+                        <option value="production">Music Production</option>
+                        <option value="other">Other / General Inquiry</option>
+                    </select>
+
+                    <label>Student Level</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="level" value="beginner" checked>
+                            Beginner -- I have little or no experience
+                        </label>
+                        <label>
+                            <input type="radio" name="level" value="intermediate">
+                            Intermediate -- I have some experience
+                        </label>
+                        <label>
+                            <input type="radio" name="level" value="advanced">
+                            Advanced -- I am an experienced musician
+                        </label>
+                    </div>
+
+                    <label>How did you hear about us? (Check all that apply)</label>
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox" name="source" value="friend">
+                            Friend or Family Referral
+                        </label>
+                        <label>
+                            <input type="checkbox" name="source" value="socialmedia">
+                            Social Media (Facebook, Instagram)
+                        </label>
+                        <label>
+                            <input type="checkbox" name="source" value="flyer">
+                            Flyer or Poster
+                        </label>
+                        <label>
+                            <input type="checkbox" name="source" value="search">
+                            Online Search
+                        </label>
+                        <label>
+                            <input type="checkbox" name="source" value="other">
+                            Other
+                        </label>
+                    </div>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Write your question or message here..." required></textarea>
+
+                    <button type="submit" class="btn-submit">Send Message</button>
+
+                </form>
+            </div>
+
+        </div><!-- end contact-section -->
+
+        <hr class="divider">
+
+        <!-- FAQ Section -->
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>What age groups do you accept?</h3>
+        <p>MelodyPoint accepts students from age <strong>5 years and above</strong>. We have programs specially designed for children, teenagers, and adults.</p>
+
+        <h3>Do I need to own an instrument to enroll?</h3>
+        <p>No. We provide practice instruments during class. However, students are <em>encouraged</em> to practice at home and we can advise you on purchasing a suitable beginner instrument.</p>
+
+        <h3>How long is each term?</h3>
+        <p>Each term at MelodyPoint runs for <strong>12 weeks</strong>. We offer three terms per year. Students may enroll at the start of any term.</p>
+
+        <h3>Can I try a class before enrolling?</h3>
+        <p>Yes. We offer a <strong>free trial lesson</strong> for all new students. Contact us to schedule your trial session.</p>
+
+        <hr class="divider">
+
+        <p style="text-align:center;">
+            <a href="https://www.musictheory.net/" target="_blank" class="ext-link">Free Online Music Learning Resources</a>
+        </p>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 MelodyPoint Music School. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Programs</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <p style="margin-top:10px;">Sinkor, Monrovia, Liberia &nbsp;|&nbsp; Tel: +231 770 000 111 &nbsp;|&nbsp; melodypointmusic@email.com</p>
+    </footer>
+
+</body>
+</html>
